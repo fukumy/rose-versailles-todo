@@ -1,0 +1,8 @@
+.gemini/
+.git/
+.env
+node_modules/
+dist/
+*.log
+tmp/
+C:\Users\mika1\.gemini\antigravity\brain\a1412186-d2ab-4f0e-b8a2-11368a31a9de\*
