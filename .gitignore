@@ -5,4 +5,9 @@ node_modules/
 dist/
 *.log
 tmp/
-C:\Users\mika1\.gemini\antigravity\brain\a1412186-d2ab-4f0e-b8a2-11368a31a9de\*
+publish.ps1
+publish.bat
+project_history.md
+walkthrough.md
+task.md
+implementation_plan.md

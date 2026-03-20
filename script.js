@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         li.innerHTML = `
             <span class="todo-text">${escapeHTML(text)}</span>
             <div class="actions">
-                <button class="action-btn complete-btn" title="誓いを果たす">🌹</button>
+                <button class="action-btn complete-btn" title="想いを咲かせる">🌸</button>
                 <button class="action-btn delete-btn" title="記憶から消去">×</button>
             </div>
         `;
@@ -24,11 +24,11 @@ document.addEventListener('DOMContentLoaded', () => {
             li.classList.toggle('completed');
             const btn = li.querySelector('.complete-btn');
             if (li.classList.contains('completed')) {
-                btn.textContent = '🥀'; // 完了（枯れたバラ）
-                btn.title = '誓いは果たされた';
+                btn.textContent = '✨'; // 完了（輝き）
+                btn.title = '想いは遂げられた';
             } else {
-                btn.textContent = '🌹'; // 未完了
-                btn.title = '誓いを果たす';
+                btn.textContent = '🌸'; // 未完了
+                btn.title = '想いを咲かせる';
             }
         });
 
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // 初期化デモタスク
-    const demoTasks = ["オスカルに花束を贈る", "庭園のバラの手入れ", "舞踏会の準備"];
+    const demoTasks = ["庭園にパンジーを植える", "紫色のリボンを探す", "お茶会の招待状"];
     demoTasks.forEach(task => {
         todoInput.value = task;
         addTask();
